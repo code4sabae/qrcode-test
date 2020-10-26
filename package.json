@@ -1,0 +1,14 @@
+{
+  "name": "qrcode-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taisuke Fukuno <fukuno@jig.jp> (https://fukuno.jig.jp/)",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode": "^1.4.4"
+  }
+}

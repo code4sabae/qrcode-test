@@ -1,0 +1,16 @@
+<body>
+  <!--
+  <script src=qrcode.min.js></script>
+  -->
+<script type="module">
+  import { QRCode } from "./QRCode.js";
+  // SVG
+  const main = async () => {
+    const svg = await QRCode.createElement("https://fukuno.jig.jp/");
+    svg.style.width = "100px";
+    document.body.appendChild(svg);
+  };
+  main();
+  </script>
+  <qr-code value="abc" style="width: 50%"></qr-code>
+</body>
